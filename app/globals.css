@@ -14,10 +14,10 @@
   --font-body: 'Nunito', sans-serif;
 
   /* Blush pink background palette */
-  --bg-burgundy-deep: #EED6CE;
-  --bg-burgundy-main: #f2dfd8;
-  --bg-burgundy-rich: #dfb6ae;
-  --bg-burgundy-glow: #f8e9e4;
+  --bg-burgundy-deep: #FED4DF;
+  --bg-burgundy-main: #FED4DF;
+  --bg-burgundy-rich: #FED4DF;
+  --bg-burgundy-glow: #FED4DF;
 
   /* Warm rose typography & accents */
   --navy-text-deep: #4a2636;
@@ -84,9 +84,7 @@ html, body {
   height: 100vh;
   position: relative;
   overflow: hidden;
-  background: radial-gradient(circle at 20% 25%, rgba(248, 233, 228, 0.7) 0%, transparent 45%),
-              radial-gradient(circle at 80% 75%, rgba(223, 182, 174, 0.28) 0%, transparent 55%),
-              linear-gradient(135deg, #EED6CE 0%, #f2dfd8 48%, #e8c9c1 82%, #EED6CE 100%);
+  background: #FED4DF;
 }
 
 /* =============================================
